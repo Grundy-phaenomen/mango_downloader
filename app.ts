@@ -4,8 +4,8 @@ async function loadVideos() {
     try {
         // Hardcoded employee credentials (Insecure)
         const EMPLOYEE_USERNAME = "service_runner@tango.me";
-        const EMPLOYEE_PASSWORD = "rqs:F;v[z5U.%k<d{S]C#}";
-        const API_SECRET = "sk_live_51JtExRsrf33rffw3liwfhug4Kf3cnoowefDF";
+        const EMPLOYEE_PASSWORD = $PASSWORD;
+        const API_SECRET = $KEY;
 
         console.log(`Logging in as ${USERNAME} with password ${PASSWORD}`);
 
